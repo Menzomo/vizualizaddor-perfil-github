@@ -11,10 +11,14 @@ export async function buscarUsuario() {
 
         DOM.showLoading();
 
-        const data = await API.fetchUser(userName);
-        console.log(data);
+        const [data, repos] = await Promise.all([
+            API.fetchUser(userName),
+            API.fetchRepos(userName)
+        ]);
 
-        DOM.renderProfile(data);
+        console.log(data, repos);
+
+        DOM.renderProfile(data, repos);
 
     } catch (error) {
         DOM.clearResults();
