@@ -41,6 +41,8 @@ vizualizaddor-perfil-github/
         ├── index.js        # Arquivo principal de inicialização
         └── validation.js   # Módulo de validação
 ```
+## VISUALIZE O PROJETO 
+https://menzomo.github.io/vizualizaddor-perfil-github/AA
 
 ## Como Executar
 
