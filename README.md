@@ -42,7 +42,7 @@ vizualizaddor-perfil-github/
         └── validation.js   # Módulo de validação
 ```
 ## VISUALIZE O PROJETO 
-https://menzomo.github.io/vizualizaddor-perfil-github/AA
+https://menzomo.github.io/vizualizaddor-perfil-github/
 
 ## Como Executar
 
